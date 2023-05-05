@@ -22,9 +22,14 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 
-urlpatterns = [
-    path("admin/", admin.site.urls),
-    path('', include('app.urls')),
-    path('', include('subscribe.urls')),
-    path('uploads/', include('uploadapp.urls'))
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+urlpatterns = (
+    [
+        path("admin/", admin.site.urls),
+        path("", include("app.urls")),
+        path("", include("subscribe.urls")),
+        path("uploads/", include("uploadapp.urls")),
+    ]
+    + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    # + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+    # we have added this code to serve the static files from our django app
+)
