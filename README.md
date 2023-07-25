@@ -12,15 +12,15 @@ Flixcareers is a dynamic job search platform built with Django and SQLite, offer
 ## Screenshots
 
 1. Homepage - Effortless Job Search:
-   ![App Screenshot](<screenshots\Screenshot (165) - Copy.png>)
+   ![App Screenshot](<screenshots/Screenshot (165) - Copy.png>)
 2. Detailed Job Information:
-   ![App Screenshot](<screenshots\Screenshot (166).png>)
+   ![App Screenshot](<screenshots/Screenshot (166).png>)
 3. Employer Job Posting Interface:
-   ![App Screenshot](<screenshots\Screenshot (170).png>)
+   ![App Screenshot](<screenshots/Screenshot (170).png>)
 4. Subscribtion Page:
-   ![App Screenshot](<screenshots\Screenshot (169).png>)
+   ![App Screenshot](<screenshots/Screenshot (169).png>)
 5. Thankyou Page:
-   ![App Screenshot](<screenshots\Screenshot (169).png>)
+   ![App Screenshot](<screenshots/Screenshot (169).png>)
 
 ## Technologies Used
 
